@@ -63,7 +63,7 @@ function showWeatherReport(weather) {
         document.body.style.backgroundImage = "url('image/clear.jpg')"
     } else if (weatherType.textContent == 'Haze') {
         document.body.style.backgroundImage = "url('image/Haze.jpg')"
-    } else if (weatherType.textContent == 'Rainy') {
+    } else if (weatherType.textContent == 'Rain') {
         document.body.style.backgroundImage = "url('image/Rainy.jpg')"
     } else if (weatherType.textContent == 'Clouds') {
         document.body.style.backgroundImage = "url('image/Cloudy.jpg')"
