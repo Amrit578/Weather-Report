@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com./css2?family=Poppins:wght@200;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://source.unsplash.com/1600x800/?forest);
+    min-height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: "Poppins", sans-serif;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+header>h2 {
+    font-size: 3.7rem;
+    font-family: "Poppins", serif;
+    background-color: #7391fc;
+    color: white;
+    padding: 3px 70px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.app-main {
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.app-main>* {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.6);
+    box-shadow: 0 4px 10px rgba(255, 187, 187, 0.2);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+.weather-body {
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.location-details {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max {
+    font-size: 12pt;
+    font-weight: 600;
+}
